@@ -6,7 +6,6 @@ public class LinkedList extends ListAbs {
     private Node headNode;
     private Node lastNode;
     private int size=0;
-//    private java.util.LinkedList
 
     public LinkedList(){
         headNode=new Node();
@@ -73,7 +72,6 @@ public class LinkedList extends ListAbs {
             linked.append(next.getDate()+"--->");
             next=next.getNext();
         }
-        System.out.print(linked);
         return linked.toString();
     }
 }

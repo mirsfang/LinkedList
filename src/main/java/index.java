@@ -10,7 +10,6 @@ public class index {
         linkedList.add(new Node("Node_3"));
         linkedList.add(new Node("Node_4"));
         linkedList.add(new Node("Node_5"));
-        linkedList.add(new Node("Node_6"));
         System.out.printf(linkedList.toString()+"\n\n");
 
         linkedList.remove(linkedList.get(2));
